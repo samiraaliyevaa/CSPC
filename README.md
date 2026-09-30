@@ -23,7 +23,8 @@ Created the CSPC repository structure, configured conda environment, integrated 
 
 NumPy vectorization dramatically increases computational performance compared to pure Python loops. Setting up isolated environments and Git repositories guarantees complete reproducibility of scientific results.
 
-## PW1 Lab B Report
 
-* **Data Observation:** The observed decay count matches the theoretical exponential decay law ($N_0 e^{-\lambda t}$) closely with $\lambda=0.3$.
-* **Snakemake Pipeline:** The Snakemake pipeline automates the generation of `figure.png` from `decay_observed.csv` and `plot.py`, ensuring the figure is only rebuilt when input data or scripts change.
+## PW1 Lab B
+- **Data observation:** The observed decay data shows an exponential decay over time.
+- **Model match:** The observed data points match the theoretical analytical decay law $N_0 e^{-\lambda t}$.
+- **Snakemake pipeline:** The Snakemake pipeline automatically regenerates `figure.png` whenever the dataset or plotting script changes.
